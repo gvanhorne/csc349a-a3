@@ -1,0 +1,20 @@
+function root = Bisect(xl, xu, epsilon, imax, f)
+    iter = 0;
+    fl = f(xl);
+
+    while i <= imax
+        xr = (xl + xu)/2
+        fr = f(xr)
+        if fr == 0 or (xu - xl)/abs(xu + xl) < epsilon
+            root = xr
+            exit
+        end
+        i = i + 1
+        if fl * f
+
+    if fxl * fxu > 0
+        root = 'failed to converge'; % No root in the interval
+        return;
+    end
+    
+   
